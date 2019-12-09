@@ -1,0 +1,3 @@
+persisting default keyboard layout:
+
+https://www.ctrl.blog/entry/how-to-macos-login-keyboard-layout.html
