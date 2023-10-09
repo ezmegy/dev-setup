@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+#
+# remove alpha channel from PNG images when App Store upload fails
+#
+# taken from https://stackoverflow.com/a/52962485 - @Nikita Pushkar
+
+for i in `ls ./*.png`;
+do
+    echo "convert $i"
+    convert $i -background white -alpha remove -alpha off $i;
+done

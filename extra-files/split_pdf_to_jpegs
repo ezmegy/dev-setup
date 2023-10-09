@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+#
+# Split every pdf in current folder to jpg files
+#
+# taken from 
+#  https://jdhao.github.io/2019/11/20/convert_pdf_to_image_imagemagick/
+#  https://stackoverflow.com/a/47377987/4966702
+
+for i in *.pdf; do
+  name=$i;
+  name=${name%.*};
+  convert -density 150 ${name}.pdf -quality 90 ${name}.jpg;
+done
