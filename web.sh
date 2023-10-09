@@ -29,3 +29,5 @@ npm install -g jshint
 npm install -g less
 
 npm install -g firebase-tools
+
+brew brew cask install visual-studio-code

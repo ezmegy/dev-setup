@@ -75,6 +75,9 @@ brew install cocoapods
 brew install --HEAD usbmuxd
 brew install --HEAD libimobiledevice
 brew install ideviceinstaller
+brew tap dart-lang/dart
+brew install dart
+brew cask install db-browser-for-sqlite
 
 # Core casks
 brew cask install --appdir="~/Applications" iterm2
@@ -85,7 +88,6 @@ brew cask install --appdir="~/Applications" xquartz
 brew cask install --appdir="/Applications" gitkraken
 brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" postman
-brew cask install --appdir="/Applications" macdown
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
@@ -93,6 +95,7 @@ brew cask install --appdir="/Applications" brave
 brew cask install --appdir="/Applications" opera
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" teamviewer
 brew install transmission
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" vlc
